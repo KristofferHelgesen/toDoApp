@@ -1,0 +1,50 @@
+h1 {
+    color: rgba(18,25,33,1);
+}
+.toDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+#toDoForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    width: 20rem;
+    background-color: whitesmoke;
+}
+
+#toDos {
+    margin-top: 1rem;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.toDoItem {
+    width: 20rem;
+    margin-bottom: 1rem;
+    background-color: whitesmoke;
+}
+
+#toDoEditForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btnGroup {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.border {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
